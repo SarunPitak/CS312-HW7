@@ -9,7 +9,6 @@ then
 else
 	echo -e "\e[1;32mGenerating ssh key...\e[0m"
 	ssh-keygen -t rsa 
-	$not_my_first_time=1
 fi
 
 echo -e "\e[1;32mCopying each ssh key to the Alpine VMs\e[0m"
